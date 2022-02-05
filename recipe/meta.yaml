@@ -28,15 +28,25 @@ requirements:
 
   host:
     - r-base
+    - r-cowplot
+    - r-tidyr
+    - r-distributional
     - r-r6
     - r-ggplot2
+    - r-ggdist
     - r-jmvcore >=0.8
+    - r-jmv
 
   run:
     - r-base
+    - r-cowplot
+    - r-tidyr
+    - r-distributional
     - r-r6
     - r-ggplot2
+    - r-ggdist
     - r-jmvcore >=0.8
+    - r-jmv
 
 test:
   commands:
