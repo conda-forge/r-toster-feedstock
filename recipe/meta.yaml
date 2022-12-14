@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.6.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/TOSTER_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/TOSTER/TOSTER_{{ version }}.tar.gz
-  sha256: f91ce0aa9070249edd2a57e5a7e95e4ad06ac3629082009982d25ddcdf15ad3c
+  sha256: ad4aeccec5d0a478de48009ef952edee41843515782023daadff5916f6fa75ed
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
