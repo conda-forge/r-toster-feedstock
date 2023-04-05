@@ -1,11 +1,11 @@
-About r-toster
-==============
+About r-toster-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-toster-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=TOSTER
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-toster-feedstock/blob/main/LICENSE.txt)
 
 Summary: Two one-sided tests (TOST) procedure to test equivalence for t-tests, correlations, differences between proportions, and meta-analyses, including power analysis for t-tests and correlations. Allows you to specify equivalence bounds in raw scale units or in terms of effect sizes. See: Lakens (2017) <doi:10.1177/1948550617697177>.
 
