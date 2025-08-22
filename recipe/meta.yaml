@@ -1,4 +1,4 @@
-{% set version = "0.8.4" %}
+{% set version = "0.8.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/TOSTER_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/TOSTER/TOSTER_{{ version }}.tar.gz
-  sha256: 996814cfa7475dc9cf6fc2f5be30e9f4fb2090fa94dab146b244bab248b9da48
+  sha256: 1c568fde3d0584edf323dfcb19a11a2b513bbdb33e24e03039c379dacff93d0a
 
 build:
   number: 0
